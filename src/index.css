@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Ubuntu Sans Mono", serif;
+}
+
+.principal-font {
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+  color: rgba(0, 2, 38, 1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, rgba(0, 2, 38, 1), rgb(108, 139, 159));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+}
+
+.border-line {
+  border-color: rgba(165, 79, 3, 1);
+}
