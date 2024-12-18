@@ -1,6 +1,7 @@
 import project1 from "../projects/project1.png";
 import project2 from "../projects/project2.png";
 import project3 from "../projects/project3.png";
+import project4 from "../projects/project4.png";
 
 export const HERO_CONTENT = `I am a dedicated Software Engineer, I am able to adapt to different environments when necessary. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -44,6 +45,12 @@ export const PROJECTS = [
     description:
       "As student I develop a CRUD project with the employes managment like Create, Read ,Update and Delete the employee.",
     technologies: ["Java", "Spring MVC", "MySQL"],
+  },
+  {
+    title: "Tic Tac Toe",
+    image: project4,
+    description: "Tic Tac Toe Game to practice the React development.",
+    technologies: ["Javascript", "React", "CSS"],
   },
 ];
 
