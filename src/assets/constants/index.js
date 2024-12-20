@@ -28,6 +28,7 @@ export const PROJECTS = [
   {
     title: "TODO APP LIST",
     image: project1,
+    link: "https://dvs-todo.netlify.app/",
     description:
       "A Todo App website with features like create a new task and delete.",
     technologies: ["HTML", "Tailwind CSS", "React"],
@@ -35,6 +36,7 @@ export const PROJECTS = [
   {
     title: "Portfolio As a Student ",
     image: project2,
+    link: "https://portfolio-dvs.netlify.app",
     description:
       "An application for showing my experience like student, skills, and contact information.",
     technologies: ["HTML", "CSS", "Javascript"],
@@ -42,12 +44,14 @@ export const PROJECTS = [
   {
     title: "Employment System",
     image: project3,
+    link: "https://github.com/Denise-code/employmentSystem",
     description:
       "As student I develop a CRUD project with the employes managment like Create, Read ,Update and Delete the employee.",
     technologies: ["Java", "Spring MVC", "MySQL"],
   },
   {
     title: "Tic Tac Toe",
+    link: "https://dvs-tic-tac-toe.netlify.app/",
     image: project4,
     description: "Tic Tac Toe Game to practice the React development.",
     technologies: ["Javascript", "React", "CSS"],
